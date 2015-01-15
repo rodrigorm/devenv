@@ -1,0 +1,10 @@
+phpbox:
+  :box: "chef/debian-7.7"
+  :memory: 2048
+  :cpus: 2
+  :ports: # example port forwarding
+    - :guest: 80
+      :host: 8080
+  :synced_folders:
+    - :guest: '/workspace/foobar'
+      :host: '~/workspace/foobar'

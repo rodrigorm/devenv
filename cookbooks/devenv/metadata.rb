@@ -1,0 +1,10 @@
+name             'devenv'
+maintainer       'Rodrigo Moyle'
+maintainer_email 'rodrigorm@gmail.com'
+license          'MIT License'
+description      'Installs/Configures devenv'
+long_description 'Installs/Configures devenv'
+version          '0.1.0'
+
+depends 'apt', '~> 2.6.1'
+depends 'php', '~> 1.5.0'
